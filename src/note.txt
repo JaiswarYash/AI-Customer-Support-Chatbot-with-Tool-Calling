@@ -1,0 +1,12 @@
+
+1. declarative_base:-
+When you define your data models by inheriting from this base class, 
+SQLAlchemy automatically maps those classes and their attributes to the corresponding tables and columns in your database
+
+2.sessionmaker()
+The sessionmaker() function creates factory functions for Session objects. The Session is vital for ORM operations, handling transactions, tracking changes, and executing queries. 
+sessionmaker() helps to maintain consistent session configuration and retrieval within an application.
+
+relationship()
+The relationship() function is used within SQLAlchemy models to define links between two mapped classes, 
+indicating how they are connected (e.g., one-to-many, many-to-many). 
