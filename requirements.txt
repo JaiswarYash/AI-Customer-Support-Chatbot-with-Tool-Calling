@@ -1,9 +1,35 @@
-openai==1.40.0
-twilio==9.2.0
-fastapi==0.109.0
-uvicorn==0.27.0
-python-dotenv==1.0.0
-pydantic==2.5.0
-requests==2.31.0
-sqlalchemy
-psycopg2-binary
+# Core LLM & Framework
+anthropic
+langgraph
+langchain 
+langchain-anthropic
+
+# Web Framework
+Flask
+python-dotenv
+
+# Image Processing
+Pillow  
+python-magic          
+
+# HTTP & API
+requests                   
+
+# Optional: Image Text Extraction (OCR)
+pytesseract
+
+# Development & Utilities
+python-dateutil             # Date/time utilities
+pytz                    # Timezone handling
+pytest                    # Testing framework
+pytest-asyncio            # Async test support
+
+#Production Deployment (optional)
+gunicorn                    # WSGI HTTP Server
+python-multipart            # Multipart form data
+
+# Code Quality
+black                    # Code formatter
+flake8                     # Linting
+mypy                        # Type checking
+PyJWT                      # JWT tokens

@@ -11,16 +11,24 @@ list_of_files = [
     '.env',
     '.env.example',
     'requirements.txt',
-    'data/faq.json',
-    'data/orders.json',
+    'app.py',
     'src/__init__.py',
     'src/main.py',
-    'src/agents.py',
+    'src/graph.py',
     'src/tools.py',
+    'src/message_handler.py',
+    'src/image_processor.py',
     'src/database.py',
     'src/utils.py',
     'src/config.py',
-    'deployment/app.py',
+    'database/.gitkeep',
+    'upload/.gitkeep',
+    'log/.gitkeep',
+    'templates/index.html',
+    'static/css/style.css',
+    'static/css/.gitkeep',
+    'static/js/chat.js',
+    'static/js/gitkeep'
 ]
 
 for filepath in list_of_files:
